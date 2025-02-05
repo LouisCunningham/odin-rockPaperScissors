@@ -8,7 +8,26 @@
 </head>
 <body>
     
-<h1>Hello World</h1>
+
+  <h1>Rock Paper Scissors</h1>
+    
+  <div class="choices">
+      <button class="choice" id="rock">✊ Rock</button>
+      <button class="choice" id="paper">✋ Paper</button>
+      <button class="choice" id="scissors">✌️ Scissors</button>
+  </div>
+
+  <div class="result">
+      <p id="player-choice">You chose: </p>
+      <p id="computer-choice">Computer chose: </p>
+      <p id="round-result"></p>
+  </div>
+
+  <div class="scoreboard">
+      <p>Score - You: <span id="player-score">0</span> | Computer: <span id="computer-score">0</span></p>
+  </div>
+
+  <button id="restart">Restart Game</button>
     <script src="main.js"></script>
 </body>
 </html>
